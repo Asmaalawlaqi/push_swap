@@ -12,17 +12,17 @@
 
 #include "push_swap.h"
 
-void	sort100n(t_list **stackA, t_list **stackB)
+void	sort100n(t_list **stackA, t_list **stackB)  // for more than 100 
 {
 	int		chnk;
 	int		i;
 	t_list	*a;
 
 	i = 0;
-	chnk = ft_chunks(stackA);
-	a = *(stackA);
-	while (ft_lstsize(*stackA) > 0 )
-	{
+	chnk = ft_chunks(stackA);    // تحديد  الحجم  detrment the size
+	a = *(stackA); // assigns this value to the variable a.
+	while (ft_lstsize(*stackA) > 0 ) 
+	{                                                        // the whille loop make the thing  going until   stack empty for   checking the node is  falls  with chank and push it to stack b 
 		if (a->index >= chnk * i && a->index <= (chnk * (i + 1)))
 		{
 			pb(stackA, stackB);
@@ -43,12 +43,12 @@ void	cheak_doubls(t_list **stackA)
 
 	node = *stackA;
 	temp_node = *stackA;
-	while (temp_node != NULL)
+	while (temp_node != NULL)  // اذا كانت النود موجوده 
 	{
-		node = temp_node->next;
-		while (node != NULL)
+		node = temp_node->next; 
+		while (node != NULL) 
 		{
-			if (temp_node->content == node->content)
+			if (temp_node->content == node->content)  //  
 			{
 				ft_lstclear(stackA, free);
 				write(2, "Error\n", 6);
@@ -67,6 +67,6 @@ int	ft_chunks(t_list **stackA)
 	if (ft_lstsize(*stackA) <= 150)
 		chnk = 15;
 	else
-		chnk = 35;
+		chnk = 35;     //  يخلي الفنكشن  يتمثل  ف 15 اذا كان  150  واذا كان اكثر  يمثله ف 35
 	return (chnk);
 }
