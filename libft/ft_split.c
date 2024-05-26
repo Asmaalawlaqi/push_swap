@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:57:31 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:57:34 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:28:42 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:28:43 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,27 +86,3 @@ char	**ft_split(char const *s, char c)
 	split[i] = 0;
 	return (split);
 }
-
-// int	main(void)
-// {
-// 	const char *str = ",,,,He,is,samrt,boy";
-// 	char delimiter = ',';
-// 	int i = 0;
-
-// 	char **result = ft_split(str, delimiter);
-
-// 	while (result[i])
-// 	{
-// 		printf("Word %d: %s\n", i, result[i]);
-// 		i++;
-// 	}
-// 	i = 0;
-// 	while (result[i] != NULL)
-// 	{
-// 		free(result[i]);
-// 		i++;
-// 	}
-
-// 	free(result);
-// 	return (0);
-// }

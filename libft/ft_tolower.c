@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:59:51 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:59:53 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:31:34 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:31:35 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,3 @@ int	ft_tolower(int c)
 		c = c + 32;
 	return (c);
 }
-
-//  int main()
-// {
-// 	char ch = 'W';
-// 	printf("%c\n", ft_tolower(ch));
-// }

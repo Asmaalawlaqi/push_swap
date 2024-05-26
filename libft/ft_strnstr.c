@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:59:17 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:59:19 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:30:59 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:31:00 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,14 +37,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-
-// int main() {
-//     const char* haystack = "wadha";
-//     const char* needle = "wa";
-
-//     char* res = ft_strnstr(haystack, needle,3);
-
-//         printf("%s\n",res);
-// 	char* rrr = strnstr(haystack, needle, 3);
-// 		printf("[%s]\n",rrr);
-//}

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:56:26 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:56:29 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:27:41 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:27:42 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,3 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-// int main()
-// {
-// char src[] = "saraisgood";
-// ft_memmove(src+1,src,3);
-// printf("new string : %s\n",src);
-// }

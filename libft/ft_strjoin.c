@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:58:12 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:58:14 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:30:07 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:30:08 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,12 +35,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	}
 	return (NULL);
 }
-
-// int main()
-// {
-// 	const char *s1 = "wadha";
-// 	const char *s2 = "Abdullah";
-// 	char *joins= ft_strjoin(s1,s2);
-// 	printf("%s\n", joins);
-// 	free(joins);
-// }

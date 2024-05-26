@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sorting.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:11:05 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:11:07 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:22:47 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:29:37 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,16 +81,6 @@ void	sort5n(t_list **stackA, t_list **stackB)
 			ra(stackA);
 	}
 	pb(stackA, stackB);
-	min = find_min(stackA);
-	while ((*stackA)->content != min)
-	{
-		if (find_length_min(stackA) > (ft_lstsize(*stackA) / 2))
-			rra(stackA);
-		else
-			ra(stackA);
-	}
-	pb(stackA, stackB);
-	sort3n(stackA);
-	pa(stackB, stackA);
+	sort4n(stackA, stackB);
 	pa(stackB, stackA);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:58:49 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:58:52 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:30:32 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:30:33 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,3 @@ size_t	ft_strlen(const char *str)
 	}
 	return (i);
 }
-
-/*int main()
-{
- printf("%zu\n", ft_strlen("wadhaabdullah"));
-}*/

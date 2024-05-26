@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:59:33 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:59:35 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:31:19 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:31:20 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,18 +33,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	}
 	return (str);
 }
-
-// int main() {
-
-//    const char *s1 = "    Hello, World! ";
-
-//    const char *set = " ";
-
-//    char *res = ft_strtrim(s1, set);
-
-//        printf("Trimmed String: '%s'\n", res);
-
-//        free(res);
-//    return (0);
-
-// }

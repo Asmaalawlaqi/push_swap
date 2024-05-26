@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:58:20 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:58:22 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:30:15 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:30:16 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,14 +34,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		dst[i + j] = '\0';
 	return (i + ft_strlen(src));
 }
-
-// int main()
-// {
-// 	char src[] = "isbeautifal";
-// 	char dst[] = "lolo";
-
-// 	size_t c = ft_strlcat(dst,src,0);
-// 	printf("conactnate  all dest with sized src %s\n",dst);
-// 	printf("length of dst & src %zu\n" , c);
-// 	return (0);
-// }

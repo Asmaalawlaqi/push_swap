@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:59:40 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:59:44 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:31:27 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:31:28 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,13 +39,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[j] = 0;
 	return (str);
 }
-// int main()
-// {
-// 	// const char *subb = "wadha ahmed";
-// 	char *res =  ft_substr("hola", 4294967295, 0);
-// 	printf("%s\n", res);
-
-// 	free(res);
-
-// 	return(0);
-// }

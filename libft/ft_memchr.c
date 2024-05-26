@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:55:57 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:55:58 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:27:14 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:27:15 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-// int main()
-// {
-// 	const char * s = "hello wadha";
-// 	int c = 'a';
-// 	char* res = ft_memchr(s,c,10);
-// 	printf("%s\n",res);
-// 	return(0);
-// }

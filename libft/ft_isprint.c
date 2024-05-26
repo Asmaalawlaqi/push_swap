@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:54:22 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:54:24 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:25:52 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:29:17 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
-
-// int main()
-//{
-//	printf("%d",ft_isprint('\t'));
-//}

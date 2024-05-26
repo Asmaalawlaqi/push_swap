@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:59:11 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:59:12 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:30:51 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:30:52 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (*(unsigned char *)s1 - *(unsigned char *)s2);
 }
-
-// int main()
-// {
-// unsigned char * s1 = " ";
-// unsigned char * s2 = "AaAtyAlo wadha";
-// 	int res = ft_strncmp(s1,s2,3);
-// 	printf("%d\n",res);
-// 	return(0);
-// }

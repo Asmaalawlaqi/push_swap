@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:57:14 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:57:16 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:28:20 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:28:21 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(n % 10, fd);
 	}
 }
-
-// int main()
-// {
-// 	ft_putnbr_fd(54575, 1);
-// }

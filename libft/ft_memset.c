@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:56:35 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:56:36 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:27:48 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:27:49 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,3 @@ void	*ft_memset(void *str, int enc, size_t num)
 	}
 	return (str);
 }
-
-// int main()
-//{
-//	char str[] = "wadha ahmed";
-//	ft_memset(str,'*',5);
-//	printf("%s\n",str);
-//	return (0);
-//}

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:58:05 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:58:06 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:29:56 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:29:57 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-
-// void	ich(unsigned int index, char *c)
-// {
-
-// 	printf("Index : %u, char : %c\n",index,*c);
-// }
-
-// int main()
-// {
-// 	char	s[] = "Hello Wdha";
-// 	ft_striteri(s,ich);
-// 	return (0);
-// }

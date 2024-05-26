@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maalamer <maalamer@student.42.fr>          +#+  +:+       +#+        */
+/*   By: asmalawl <asmalawl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/05 12:56:12 by maalamer          #+#    #+#             */
-/*   Updated: 2024/05/05 12:56:15 by maalamer         ###   ########.fr       */
+/*   Created: 2024/05/26 14:27:29 by asmalawl          #+#    #+#             */
+/*   Updated: 2024/05/26 14:27:30 by asmalawl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,10 +32,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-
-// int main()
-// {
-// char src[] = "saraisgood";
-// ft_memcpy(src+2,src,3);
-// printf("new string : %s\n",src);
-// }
